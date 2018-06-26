@@ -7,7 +7,7 @@ services:
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
   bungeecord:
-    image: itzg/bungeecord
+    image: rr59/waterfall
     ports:
       - 25577:25577
     volumes:
