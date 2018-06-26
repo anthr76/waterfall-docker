@@ -4,7 +4,7 @@ VOLUME ["/server", "/plugins"]
 WORKDIR /server
 
 ENV WATERFALL_HOME=/server \
-	WATERFALL_BASE_URL=https://destroystokyo.com/ci/job/Waterfall \
+	WATERFALL_BASE_URL=https://destroystokyo.com/ci/job/Waterfall/ \
     MEMORY=512m
 
 COPY *.sh /usr/bin/
