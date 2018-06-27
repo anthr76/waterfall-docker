@@ -7,6 +7,7 @@ ENV WATERFALL_HOME=/server \
 	WATERFALL_BASE_URL=https://destroystokyo.com/ci/job/Waterfall/ \
     MEMORY=512m
 
+RUN chmod +x *.sh
 COPY *.sh /usr/bin/
 
 RUN apk --no-cache add curl bash sudo
