@@ -27,3 +27,4 @@ if [ $UID == 0 ]; then
 else
   exec java $JVM_OPTS -jar $WATERFALL_JAR "$@"
 fi
+#
